@@ -135,12 +135,11 @@ export default function CreateIncident() {
         {/* LEFT & CENTER: THE FORM */}
         <div className="lg:col-span-2 space-y-8">
           <div className="flex items-center gap-4">
-            <Link
-              href="/admin"
+            <button onClick={() => router.back()}
               className="p-2 hover:bg-slate-900 rounded-full transition-colors"
             >
               <ArrowLeft className="text-slate-400" />
-            </Link>
+            </button>
             <div>
               <h1 className="text-3xl font-bold text-white tracking-tight">
                 Report New Incident
