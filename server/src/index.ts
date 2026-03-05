@@ -14,7 +14,7 @@ connectDB();
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://resqnet-beryl.vercel.app/"
+    "https://resqnet-beryl.vercel.app"
   ],
   credentials: true
 }))
