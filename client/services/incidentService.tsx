@@ -33,7 +33,7 @@ export interface resources {
 }
 
 // 2. In Next.js, client-accessible env vars MUST start with NEXT_PUBLIC_
-const BASE_URL = process.env.BASE_URL || "http://localhost:5001/api";
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
