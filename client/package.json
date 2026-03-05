@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@radix-ui/react-accordion": "^1.2.12",
     "axios": "^1.13.5",
     "clsx": "^2.1.1",
     "framer-motion": "^12.34.3",
